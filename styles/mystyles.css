@@ -1,0 +1,68 @@
+header {
+    display: flex; /* Enables flexbox for the header container */
+    justify-content: space-between; /* Pushes the first item (logo link) to the left and the last item (nav) to the right */
+    align-items: center; /* Vertically centers items in the header */
+    padding: 10px 20px; /* Adds some space around the edges */
+    background-color:hsl(0, 0%, 20%); /* Example background color */}
+
+nav {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 0;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 20px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header #Logo{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: center;
+    text-align: left;
+}
+nav a:hover {
+    color: orange;
+}
+
+div ul {
+    list-style-type: square;
+    display: inline-block;
+}
+
+div li {
+    margin: 5px 0;
+    display: inline;
+}
+
+.flex-container {
+    display: flex; /* Makes the children flex items and displays them side by side */
+    gap: 20px;     /* Adds space between the sections */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    flex: 1;           /* Each section takes up an equal share of the container */
+    padding: 15px;    
+}
+
+h1{
+    margin:2px
+}
