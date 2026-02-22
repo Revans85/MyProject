@@ -1,0 +1,42 @@
+@import 'vendor/normalize';
+@import 'colors';
+
+#story h1:first-of-type {
+  font-family: 'Great Vibes', cursive;
+  color: $secondary-font-color;
+}
+
+#story h1:nth-of-type(2) {
+  font-size: 38pt;
+}
+
+#story img {
+  max-width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+#story a {
+  color: $secondary-font-color;
+}
+
+#menu-hero h1:first-of-type {
+  font-family: 'Great Vibes', cursive;
+  color: $secondary-font-color;
+  font-size: 48pt;
+}
+
+#menu-hero h1:nth-of-type(2) {
+  font-size: 48pt;
+}
+
+#menu-hero img {
+  max-width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+#menu-description a {
+  color: $secondary-font-color;
+  font-weight: bold;
+}
