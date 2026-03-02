@@ -1,0 +1,11 @@
+@mixin script-heading {
+  color: $secondary-font-color;
+  font-size: 2.5em;
+  font-family: 'Marck Script', cursive;
+}
+
+@mixin main-link {
+  color: $secondary-font-color;
+  text-transform: uppercase;
+  font-size: 0.875em;
+}

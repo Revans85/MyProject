@@ -1,5 +1,7 @@
 @import 'vendor/normalize';
 @import 'colors';
+@import 'partials/typography';
+@import 'partials/mixins';
 
 #story h1:first-of-type {
   font-family: 'Great Vibes', cursive;
@@ -21,9 +23,7 @@
 }
 
 #menu-hero h1:first-of-type {
-  font-family: 'Great Vibes', cursive;
-  color: $secondary-font-color;
-  font-size: 48pt;
+  @include script-heading;
 }
 
 #menu-hero h1:nth-of-type(2) {
@@ -37,6 +37,6 @@
 }
 
 #menu-description a {
-  color: $secondary-font-color;
+  @include main-link;
   font-weight: bold;
 }
